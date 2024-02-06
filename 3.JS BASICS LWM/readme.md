@@ -1,6 +1,7 @@
 // 1.word vs keyword
 
 // word -> Anything which has no meaning in language is word.
+
 eg:- harsha
      is 
      good 
@@ -24,15 +25,19 @@ eg:- for
 //3.Hoisting ->
 1.variable and functions are hoisted which means there declaration is moved on the top of the code.
 eg:-
+```javascript
 console.log(a);
 var a = 12;
+```
 2.If we have not given any value to variable then by default the value of variable is undefined because of hoisting.
 
 //4.undefined and not-defined
 1.undefined -> existance hai par value pata nahi hai woh hai undefined.
 eg:-
+```javascript
 console.log(b);
 var b = 24;
+```
 2.not-defined -> Jiska existance hi nahi hai.
 eg:-
 console.log(b); 
@@ -55,12 +60,15 @@ while(){}
 functions mainly 3 kaam ke liye hote hai:-
 1.Jab aapka code aap turant nahi chalana chaahte future mein chalana chaahte ho.
 eg:-
+```javascript
 function abcd(){
     console.log("hello");
 }
 abcd();
+```
 2.Jab aapka code aap reuse karna chahate ho.
 eg:-
+```javascript
 function makeTea(){
     console.log("Take container");
     console.log("Add milk,suger and tea and boiled it");
@@ -70,20 +78,25 @@ makeTea();
 makeTea();
 makeTea();
 makeTea();
+```
 3.Jab aap code chalana chahate ho har bar with different data.
 eg:-
+```javascript
 function abcd(a,b,c){ // parameters
     console.log(a);
 }
 abcd(12,15,25); // arguments(real values)
+```
 
 //Arguments->real value jo hum dete hai funvtion chalaate waqt.
 //Parameter->variables jinme value store hoti hai arguments wali.
 
 //9.Arrays -> group of values
 hum ek variable mein ek value store kar paate hai par jab humein ek se jyaada value store karni ho tab phir use hota hai array ka,matlab ki array aapko freedom deta hai ek se jyada value use karne ka.
+```javascript
     var arr = [1,2,3,4,5];
     arr[0] = 1;
+```
 //Array methods:- 
 //push (insert at last)
 //pop (delete from last)
@@ -96,9 +109,11 @@ hum ek variable mein ek value store kar paate hai par jab humein ek se jyaada va
 2.Object hai ek bande ki details ko hold karna,in a key-value pair.
 
 //1.blank object
+```javascript
 var a = {};
-
+```
 //2.filled object
+```javascript
 var a = {
     age: 25,
     name: "harsha",
@@ -122,7 +137,7 @@ var ghadi = {
 
     }
 }
-
+```
 //properties/props -> eg:- brand, price,type are props
 
 //Methods -> Object ki property jiska type function ho wo methods kehlata hai.
