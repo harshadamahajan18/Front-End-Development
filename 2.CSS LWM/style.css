@@ -1,0 +1,123 @@
+/* CSS boilerplate */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html , body {
+    width: 100%;
+    height: 100%;
+}
+
+/* Targeting elements */
+/* . -> clss
+# -> :id 
+p ,a ->Tag  */
+
+/* 1.width and height */
+/* #main {
+    width: 20%;
+    height: 40%;
+    background-color: black;
+} */
+
+/* 2.Understanding pixel and % */
+/* #main {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+} */
+
+/* 3.Understanding margin and padding */
+/* margin: 20px 30px 40px 50px;(top right bottom left) */
+    /* margin: 20px 30px; (20px ->top and bottom , 30px ->right and left) */
+/* #main {
+    width: 100px;
+    height: 100px;
+    margin: 20px 30px 40px 50px; 
+    background-color: black;
+} */
+/* Padding */
+/* #main {
+    width: 20%;
+    height: 40%;
+    padding: 30px;
+    background-color: red;
+} */
+
+/* background image and it's properties */
+/* #main {
+    width: 100%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1517411032315-54ef2cb783bb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTV8fHxlbnwwfHx8fHw%3D);
+    background-size: cover;
+    background-position: bottom;
+} */
+
+/* Understanding position absolute */
+/* #car1 {
+    width: 100px;
+    height: 120px;
+    background-color: red;
+}
+
+#car2 {
+    width: 110px;
+    height: 90px;
+    /* top: 20%;
+    left: 40%;
+    position: absolute; */
+    /* background-color: blueviolet;
+}
+#car3 {
+    width: 130px;
+    height: 110px;
+    background-color: green;
+} */
+
+/* position: relative; */
+/* #box {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background-color: black;
+}
+
+#chhota {
+    position: absolute;
+    left: 40%;
+    top: 20%;
+    right: 10%;
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+} */
+
+/* Flex box */
+#box {
+    width: 500px;
+    height: 500px;
+    background-color: gray;
+    display: flex;
+    /* justify-content: center; Used for width */
+    /* align-items: center; Used for height */
+    justify-content: end;
+    align-items: start;
+}
+
+#box1 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(117, 17, 17);
+}
+#box2 {
+    width: 130px;
+    height: 110px;
+    background-color: rgb(198, 38, 193);
+}
+#box3 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(176, 207, 110);
+}
